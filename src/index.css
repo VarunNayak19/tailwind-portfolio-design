@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.outlinecss {
+  text-shadow: -5px -5px 0 #f6683c, 5px -5px 0 #f6683c, -5px 5px 0 #f6683c,
+    5px 5px 0 #f6683c;
+}
+
+.customRadius {
+  border-radius: 0% 50% 50% 50%;
+}
